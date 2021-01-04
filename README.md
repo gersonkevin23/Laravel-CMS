@@ -194,9 +194,6 @@ php artisan laravelcms --action=clear
 // Install Laravel 6.x/7.x/8.x & the CMS package
 composer create-project --prefer-dist laravel/laravel cms && cd cms && composer require alexstack/laravel-cms
 
-// Then you need to change the database settings in the .env after that initialize CMS
-cd cms & vi .env
-php artisan laravelcms
 
 // Or initialize the CMS with silent mode
 php artisan laravelcms --action=initialize --locale=en --table_prefix=cms_  --silent=yes
