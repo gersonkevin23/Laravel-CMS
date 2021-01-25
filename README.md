@@ -30,11 +30,6 @@ composer require alexstack/laravel-cms && php artisan laravelcms
 php artisan laravelcms --action=uninstall
 
 ```
-
-## Demo & Documents
-
--   [Laravel CMS frontend demo & documents](https://www.laravelcms.tech "Laravel CMS") &#x1F4D9;
-
 ## Screenshot of the output of install command
 
 ![image](docs/images/min/artisan-install-command-min.png)
